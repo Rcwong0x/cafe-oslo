@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Oslo</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/img/favicon-16x16.png">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/vendor/reset.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+</head>
+<body>
+    <main>
+        <section id="section-hero" class="hero">
+            <nav class="nav">
+                <img class="nav__img" src="./src/img/Logo.png" alt="Logo cafe oslo">
+                <ul class="nav__links">
+                    <li><a class="nav__link" href="#section-hero">Inicio</a></li>
+                    <li><a class="nav__link" href="#section-services">Servicios</a></li>
+                    <li><a class="nav__link" href="#section-reservations">Reservaciones</a></li>
+                    <li><a class="nav__link" href="#section-menu">Menú</a></li>
+                    <li><a class="nav__link" href="#section-contact">Contacto</a></li>
+                </ul>
+                <img class="burger-menu" src="./src/img/burger-menu.svg" alt="Abrir menu de opciones">
+                <ul class="nav__mobile d-none">
+                    <img class="close-menu" src="./src/img/close-menu.svg" alt="Cerrar menu">
+                    <li><a class="nav__link" href="#section-hero">Inicio</a></li>
+                    <li><a class="nav__link" href="#section-services">Servicios</a></li>
+                    <li><a class="nav__link" href="#section-reservations">Reservaciones</a></li>
+                    <li><a class="nav__link" href="#section-menu">Menú</a></li>
+                    <li><a class="nav__link" href="#section-contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="hero__content">
+                <h1 class="hero__title">RECIEN HECHO, TODOS LOS DÍAS</h1>
+                <hr class="divider">
+                <p class="hero__text">Cada mañana, nos esforzamos por crear delicias frescas que despierten tus sentidos y hagan brillar tu día. Bienvenido a Café Oslo, donde la pasión se mezcla con la perfección, y cada bocado es una obra maestra recién horneada.</p>
+                <a class="primary-button" href="#">Ver Menu</a>
+            </div>
+        </section>
+        <section id="section-services" class="services">
+            <article class="article">
+                <h2 class="article__title">VEN AL BRUNCH DE LOS DOMINGOS</h2>
+                <p class="article__text">Descubre domingos llenos de sabor con nuestro brunch artesanal. Una experiencia única de sabores que cautivará a ti y a tu familia.</p>
+            </article>
+            <article class="article">
+                <h2 class="article__title">CELEBRA TUS FIESTAS CON NOSOTROS</h2>
+                <p class="article__text">Disfruta de nuestros pasteles únicos y convierte ocasiones especiales en momentos inolvidables. ¡Los cumpleañeros obtienen pastel gratis! 🥳</p>
+            </article>
+        </section>
+        <section id="section-reservations" class="reservations">
+            <div class="hero__content">
+                <h2 class="hero__title">VEN A DESAYUNAR</h2>
+                <hr class="divider">
+                <p class="hero__text">Nada supera la felicidad que brinda un desayuno bien preparado. En Café Oslo, te invitamos a comenzar tus mañanas de la mejor manera posible. Nuestros desayunos son una celebración de sabores frescos y opciones para todos los gustos.</p>
+                <a class="primary-button" href="#">Reservar</a>
+            </div>
+        </section>
+        <section id="section-menu" class="menu">
+            <h2 class="hero__title">Nuestro menú</h2>
+            <div class="menu__grid">
+                <article class="product">
+                    <img class="product__img" src="./src/img/Icono1.png" alt="">
+                    <div class="product__data">
+                        <h3 class="product__title">PAN RECIÉN HECHO</h3>
+                        <p class="product__text">Nuestro pan se hornea a diario con ingredientes frescos y de alta calidad. Desde baguettes crujientes hasta panes integrales, cada bocado es una experiencia de sabor única que complementa cualquier comida.</p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__img" src="./src/img/Icono2.png" alt="">
+                    <div class="product__data">
+                        <h3 class="product__title">DULCES ARTESANALES</h3>
+                        <p class="product__text">Nuestra repostería artesanal es la joya de la corona. Desde suaves pasteles hasta galletas decoradas con cariño, nuestros dulces son obras maestras que deleitarán tus sentidos y endulzarán tu día.</p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__img" src="./src/img/Icono3.png" alt="">
+                    <div class="product__data">
+                        <h3 class="product__title">TARTAS PARA CADA DÍA</h3>
+                        <p class="product__text">¿Buscas una razón para celebrar? Nuestras tartas son ideales para cualquier ocasión, desde cumpleaños hasta momentos especiales. Cada tarta es un tributo al sabor y la creatividad.</p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__img" src="./src/img/Icono4.png" alt="">
+                    <div class="product__data">
+                        <h3 class="product__title">OPCIONES VEGANAS Y SIN GLUTEN</h3>
+                        <p class="product__text">En Café Oslo, creemos en la inclusividad. Ofrecemos opciones veganas y sin gluten que son igualmente deliciosas. Nuestros productos son preparados con atención para satisfacer diversas necesidades dietéticas sin comprometer el sabor.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="section-contact" class="contact">
+            <article class="article">
+                <h2 class="article__title">CONTACTA CON NOSOTROS</h2>
+                <p class="article__text">Si quieres hacer una reservación, tienes alguna sugerencia o simplemente quieres saludar, escribenos a: <a class="link-to" href="mailto:cafeoslo@cafeoslo.es">cafeoslo@cafeoslo.es</a></p>
+            </article>
+            <article class="article">
+                <h2 class="article__title">ENCUENTRANOS EN:</h2>
+                <p class="article__text">C/ Mayor, 15 Madrid <a class="link-to" href="https://maps.app.goo.gl/VGLgP3mFZvdgkowC7">Ver en Maps</a></p>
+            </article>
+        </section>
+        <button id="button-to-top" class="button-to-top">Inicio</button>
+    </main>
+    <footer class="footer">
+        <p class="copy">
+            ©️ <span class="copy__date">Septiembre 2023</span> - Todos los derechos son reservados.
+        </p>
+    </footer>
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
